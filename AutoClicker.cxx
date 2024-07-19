@@ -5,6 +5,7 @@
 
 int main()
 {
+    ShowWindow(GetConsoleWindow(), SW_HIDE);
     MessageBox(
         NULL, 
         "AutoClicker is running\n"
